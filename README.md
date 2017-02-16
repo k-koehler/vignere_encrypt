@@ -8,7 +8,7 @@ Now you should have two executables: v_encpt and v_dcpt<br>
 To encrypt a file using the Vignère Cypher, simply run the command:<br>
 `v_encpt <input_file>`<br>
 After doing that, the file should become encyphered. For example, with password "meow":<br>
->The quick brown fox jumped over the lazy dog. 
+>The quick brown fox jumped over the lazy dog.
 
 becomes:
 >flsmgmqgnvcszjctvyalqhcrqvhdqpovkhcc
