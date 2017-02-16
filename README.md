@@ -3,30 +3,28 @@
 <h1>How to use:</h1>
 <p1>run the following commands in your shell/cmd:<br>
 `g++ *.h *.cc  encrypt.cpp -Wall -pedantic -o v_encpt`<br>
-`g++ *.h *.cc  decrypt.cpp -Wall -pedantic -o v_dcpt`<br>
-Now you should have two executables: v_encpt and v_dcpt<br><br>
-
+`g++ *.h *.cc  decrypt.cpp -Wall -pedantic -o v_dcpt`
+Now you should have two executables: v_encpt and v_dcpt<br>
 To encrypt a file using the Vignère Cypher, simply run the command:<br>
-`v_encpt <input_file>`
-
-After doing that, the file should become encyphered. For example, with password "meow":
+`v_encpt <input_file>`<br>
+After doing that, the file should become encyphered. For example, with password "meow":<br>
 >The quick brown fox jumped over the lazy dog. 
-...becomes:
+becomes:
 >flsmgmqgnvcszjctvyalqhcrqvhdqpovkhcc
 
 To decrypt it, simply run the command:
 'v_dcpt <encrypted file>'
 
 After running, with password "wrong password":
->flsmgmqgnvcszjctvyalqhcrqvhdqpovkhcc
-...becomes:
+>flsmgmqgnvcszjctvyalqhcrqvhdqpovkhc
+<br>becomes:<br>
 >Sample text: juezanbgvdgeiggchlum
 ...this doesn't seem right! <br>
 Now try again with the right password:
 >Sample text: thequickbrownfoxjump
 ...this seems correct, now we should overwrite the file!</p>
 
-NOTE:
+<h2>NOTE:</h2>
 
 Non-alphabetical characters are omitted (as per original design of the cypher) including spaces. 
 
