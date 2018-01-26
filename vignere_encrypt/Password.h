@@ -8,7 +8,6 @@
 #include <cstring>
 
 //detect windows/linux
-//doesn't work, not sure why
 #if defined(_WIN32) || defined(_WIN64)
 #define OS_WIN
 #endif
